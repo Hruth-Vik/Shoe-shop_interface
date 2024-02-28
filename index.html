@@ -14,36 +14,82 @@
             </div>
         </div>
         <div class="boxes">
-            <div data-tilt class="first_div">
-                <div class="t1">
-                    <h1 class="head_txt1">Nike Retro</h1>
+            <div class="first_div">
+                <!-- <div class="t1"> -->
+                <h1 class="head_txt1">Nike Retro</h1>
+                <!-- </div> -->
+                <div id="wrapper">
+
+                    <div class="circle-1">
+                    </div>
                 </div>
                 <div class="t1_a">
                     <img src="./assets/shoe1.png" alt="nike-retro" id="sh0">
                 </div>
+                
+                <!-- <div id="one">
+                    <div class="btn">
+                      <button id="btn_click">Buy Now</button>
+                    </div>
+                </div> -->
             </div>
-            <div data-tilt class="sec_div">
-                <div class="t2">
+            <div class="sec_div">
+                <!-- <div class="t2"> -->
                     <h1 class="head_txt2">Nike Sport</h1>
-                </div>
+                <!-- </div> -->
                 <div class="t2_a">
                     <img src="./assets/shoe2.png" alt="nike-not_retro" id="sh1">
                 </div>
+                <!-- <div id="two">
+                    <div class="btn">
+                        <button id="btn_click">Buy Now</button>
+                     </div>
+                </div>    -->
             </div>
-            <div data-tilt class="Third_div">
-                <div id="t3">
+            <div class="Third_div">
+                <!-- <div id="t3"> -->
                     <h1 class="head_txt3">Nike Vision</h1>
-                </div>
+                <!-- </div> -->
                 <div id="t3_a">
                     <img src="./assets/shoe3.png" alt="nike_one_more_retro" id="sh2">
                 </div>
+                <!-- <div id="three">
+                    <div class="btn">
+                        <button id="btn_click">Buy Now</button>
+                    </div>
+                </div> -->
+
             </div>
         </div>
 
 
     </div>
-    <script src="script.js"></script>
-    <script src="vanilla-tilt.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="./vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".first_div"), {
+            max: 15,
+            speed: 300,
+            easing:"cubic-bezier(.03,0.98,0.52,0.99)",
+            scale:1.05,
+
+        });
+        VanillaTilt.init(document.querySelector(".sec_div"), {
+            max: 15,
+            speed: 300,
+            easing:"cubic-bezier(.03,0.98,0.52,0.99)",
+            scale:1.05,
+
+        });
+        VanillaTilt.init(document.querySelector(".Third_div"), {
+            max: 15,
+            speed: 300,
+            easing:"cubic-bezier(.03,0.98,0.52,0.99)",
+            scale:1.05,
+
+        });
+        //It also supports NodeList
+        </script>
 
 </body>
 </html>
