@@ -14,9 +14,31 @@ body {
 
 /* Navbar settings */
 
-.nav_main {
-  padding: 10px;
+
+.nav_main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+.nav_main{
+  display: inline;
+}
+.nav_sub img{
+  height: 3rem;
+  width: auto;
+}
+.nav_sub{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
 
 /* end of navbar css */
 
