@@ -65,6 +65,17 @@ i {
   background-color: black;
   z-index: 1;
 }
+/* .three:before {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 1;
+} */
 
 /* end of navbar css */
 
@@ -130,6 +141,11 @@ i {
   object-fit: cover;
   object-position: 50% 50%;
 }
+
+
+/* #sh1:hover{
+  display: flex;
+} */
 
 /* third div */
 
